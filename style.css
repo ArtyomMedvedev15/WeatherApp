@@ -15,7 +15,7 @@ body{
   background-size: cover;
   color:white;
   font-family: 'Long Cang', cursive;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .location, .temperture{
@@ -24,12 +24,18 @@ body{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color:white;
+  background-color: black;
+  opacity: 0.5;
 }
 
 .degree-section{
   display: flex;
   align-items: center;
   cursor: pointer;
+  color:white;
+  background-color: black;
+  opacity: 0.5;
 }
 
 .degree-section span{
@@ -39,4 +45,10 @@ body{
 
 .degree-section h2{
   font-size: 40px;
+}
+
+#blockSection{
+  align-items: center;
+  background-color: black;
+  opacity: 0.6;
 }
